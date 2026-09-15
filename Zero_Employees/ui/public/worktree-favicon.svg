@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <style>
+    .mark { fill: #db2777; }
+    @media (prefers-color-scheme: dark) {
+      .mark { fill: #f472b6; }
+    }
+  </style>
+  <!-- Worktree variant of the Zero mark: same serif-zero letterform, pink so a
+       worktree preview tab is distinguishable from the main instance at a glance. -->
+  <path class="mark" fill-rule="evenodd" d="M12 2.5a7.5 9.5 0 1 1 0 19 7.5 9.5 0 1 1 0-19Zm0 2.9a3.8 6.6 0 1 0 0 13.2 3.8 6.6 0 1 0 0-13.2Z"/>
+</svg>
