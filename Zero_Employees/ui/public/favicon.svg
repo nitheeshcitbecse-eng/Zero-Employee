@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <style>
+    .mark { fill: #9c5238; }
+    @media (prefers-color-scheme: dark) {
+      .mark { fill: #ce8560; }
+    }
+  </style>
+  <!--
+    The mark is a serif zero: an outer letterform ellipse with a narrower
+    ellipse knocked out of it. Because the inner counter is proportionally
+    taller than it is wide, the resulting stroke is thick at the sides and
+    thin at the top and bottom - the weight modulation of a serif face,
+    which is what keeps it from reading as a plain geometric circle.
+  -->
+  <path class="mark" fill-rule="evenodd" d="
+    M12 2.5
+    a7.5 9.5 0 1 1 0 19
+    a7.5 9.5 0 1 1 0-19
+    Z
+    M12 5.4
+    a3.8 6.6 0 1 0 0 13.2
+    a3.8 6.6 0 1 0 0-13.2
+    Z
+  "/>
+</svg>

@@ -1,0 +1,30 @@
+{
+  "id": "/",
+  "name": "Zero Employees",
+  "short_name": "Zero",
+  "description": "Run a company of autonomous agents - goals, org structure, budgets and accountability in one workspace.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "orientation": "any",
+  "theme_color": "#faf8f3",
+  "background_color": "#faf8f3",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
